@@ -1,0 +1,18 @@
+{
+  "name": "password_change_notification",
+  "title": "Password Change Notication",
+  "description": "End user security is a major concern for all CIAM customers. Account takeover is can be mitigating by notifying an end users when their password has changed in the event that it was performed without their knowledge. Branding this notification across multiple application brands is important. Workflows can act on a password change and send a customized notice to the end user for confirmation.",
+  "connectors": [
+    "okta","O365
+  ],
+  "links": [
+    {
+      "title": "Video Walk-through",
+      "destination": ""
+    },
+    {
+      "title": "Setup Documentation",
+      "destination": ""
+    }
+  ]
+}
