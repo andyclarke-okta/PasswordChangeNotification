@@ -3,9 +3,9 @@
 
 ## <span style="text-decoration:underline;">Overview</span>
 
-End user security is a major concern for all CIAM customers. Account takeover is can be mitigating by notifying an end users when their password has changed in the event that it was performed without their knowledge. Branding this notification across multiple application brands is important. Workflows can act on a password change and send a customized notice to the end user for confirmation.
-The trigger event which intitiates the workflows is a User Password Changed event on the Okta Identity Platform. This occurs whether the user initiates a self service password change or a password is set by admistraive action.
-A customized HTML email template is built which shall substitute user and event context dynamically. Email is sent via a Workflows Connector, in this sample we are usaing O365, or any API accessible email service.
+End user security is a major concern for all CIAM customers. Account takeover can be mitigating by notifying an end users when their password has changed,thereby alerting them in the event that it was performed without their knowledge. Branding this notification across multiple application brands is important. Workflows can act on a password change event and send a customized notice to the end user.
+The trigger event which intitiates the workflows is a User Password Changed event on the Okta Identity Platform. This occurs whether the user initiates a self service password change or a password is set by administrative action.
+A customized HTML email template is built which shall substitute user and event context dynamically. Email is sent via a Workflows Connector, in this sample we are usaing O365, or any API accessible email service will work.
 
 ## Before you get Started / Prerequisites
 
