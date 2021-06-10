@@ -33,7 +33,7 @@ Before you get started, here are the things you’ll need:
 	Here is Dynamic Transactional Template used for this example.
 	This template is used in the
 	
-	```
+```javascript
 	
   <html>
     <head>
@@ -131,7 +131,7 @@ Before you get started, here are the things you’ll need:
     </body>
   </html>
 
-	```
+```
 
 
 
